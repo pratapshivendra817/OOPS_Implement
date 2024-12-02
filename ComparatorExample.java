@@ -29,9 +29,9 @@ class Employee {
 public class ComparatorExample {
     public static void main(String[] args) {
         List<Employee> employees = new ArrayList<>();
-        employees.add(new Employee("John", 5000));
-        employees.add(new Employee("Alice", 7000));
-        employees.add(new Employee("Bob", 6000));
+        employees.add(new Employee("Shiv", 5000));
+        employees.add(new Employee("Sona", 7000));
+        employees.add(new Employee("Sanoo", 6000));
 
         // Sort by name
         employees.sort(Comparator.comparing(Employee::getName));
